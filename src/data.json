@@ -1,0 +1,108 @@
+{
+    "location": [
+        {
+            "id": "1",
+            "name": "Bangalore"
+        },
+        {
+            "id": "2",
+            "name": "Chennai"
+        },
+        {
+            "id": "3",
+            "name": "Coimbatore"
+        },
+        {
+            "id": "4",
+            "name": "Trichy"
+        }
+    ],
+    "bodyType": [
+        {
+            "id": "1",
+            "name": " Hatchpack"
+        },
+        {
+            "id": "2",
+            "name": " Sedan"
+        },
+        {
+            "id": "3",
+            "name": " SUV"
+        }
+    ],
+    "brand": [
+        {
+            "id": "1",
+            "name": " Wagon R"
+        },
+        {
+            "id": "2",
+            "name": " Celerio"
+        },
+        {
+            "id": "3",
+            "name": " Swift"
+        },
+        {
+            "id": "4",
+            "name": " Swift Dzire"
+        }
+    ],
+    "owners": [
+        {
+            "id": "1",
+            "name": "1st Owner"
+        },
+        {
+            "id": "2",
+            "name": "2nd Owner"
+        },
+        {
+            "id": "3",
+            "name": "3rd Owner"
+        }
+    ],
+    "budget": [
+        {
+            "id": "1",
+            "name": "Less than 1"
+        },
+        {
+            "id": "2",
+            "name": "2L - 4L"
+        },
+        {
+            "id": "3",
+            "name": "4L - 6L"
+        },
+        {
+            "id": "4",
+            "name": "More than 6L"
+        }
+    ],
+    "fuelType": [
+        {
+            "id": "1",
+            "name": "Petrol"
+        },
+        {
+            "id": "2",
+            "name": "Diesal"
+        },
+        {
+            "id": "3",
+            "name": "CNG"
+        }
+    ],
+    "transmission": [
+        {
+            "id": "1",
+            "name": "Automatic"
+        },
+        {
+            "id": "2",
+            "name": "Manual"
+        }
+    ]
+}
