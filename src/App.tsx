@@ -6,9 +6,7 @@ import ms from '../src/assets/MS.png'
 import hy from '../src/assets/hy.png'
 import re from '../src/assets/re.jpg'
 import hd from '../src/assets/hd.png'
-import { useNavigate } from 'react-router-dom';
 import TopNav from './TopNav';
-import React from 'react';
 
 interface FormData {
     model: string;
@@ -25,7 +23,6 @@ interface FormData {
 function App() {
 
     const MyContext = createContext<FormData | null>(null)
-    const myData = useSelector((state: any) => state.myData);
 
     const [currentPage, setCurrentPage] = useState('logo');
     const [selectedCar, setSelectedCar] = useState('');
@@ -202,7 +199,3 @@ function App() {
 }
 
 export default App;
-function useSelector(arg0: (state: any) => any) {
-    throw new Error('Function not implemented.');
-}
-
